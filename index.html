@@ -11,17 +11,63 @@
 	<script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
 	<![endif]-->	
 	<style>
-		* { padding: 0; margin: 0; }
-		body { background-color: #333; }
-		p { color: #fff; font-family: Helvetica; font-size: 16px; line-height: 24px; margin-bottom: 22px; -webkit-font-smoothing: antialiased; }
-		a { color: #fff; font-weight: bold; text-decoration: none; border-bottom: 1px solid rgba(255,255,255,0.3); }
-		a:hover { color: #990000; border-bottom: 1px solid rgba(255,255,255,1); }
-		#monogram { width: 50px; padding: 50px 0 0 0; margin: 0 auto 0 50px; }
-		#about { width: 360px; padding: 10px; margin: -35px 50px 0 auto !important;background-color: rgba(0,0,0,0.4);border-radius: 10px; }
+		* { 
+			padding: 0; 
+			margin: 0; 
+		}
+		body { 
+			background-color: #333;
+			background: url(bg.jpg) no-repeat center center fixed;
+			-webkit-background-size: cover;
+			-moz-background-size: cover;
+			-o-background-size: cover;
+			background-size: cover;
+		}
+		p { 
+			color: #fff;
+			font-family: Helvetica;
+			font-size: 16px;
+			 line-height: 24px;
+			 margin-bottom: 22px;
+			 -webkit-font-smoothing: antialiased;
+		}
+		a { 
+			color: #fff;
+		 	font-weight: bold;
+		 	text-decoration: none;
+		 	border-bottom: 1px solid rgba(255,255,255,0.3);
+		}
+		a:hover { 
+			color: #990000;
+		 	border-bottom: 1px solid rgba(255,255,255,1);
+		}
+		#monogram { 
+			width: 50px;
+		 	padding: 50px 0 0 0;
+		 	margin: 0 auto 0 50px;
+		}
+		#about { 
+			width: 360px;
+		 	padding: 10px;
+		 	margin: -35px 50px 0 auto !important;
+		 	background-color: rgba(0,0,0,0.4);
+			border-radius: 10px;
+		}
 		@media (max-width: 767px) {
-			#monogram { position: relative; width: auto; padding: 20px; margin: 0; }
-			#about { position: relative; width: auto; padding: 20px; margin: 0 !important; }
-			background-image { opacity: 0.2; }
+			#monogram { 
+				position: relative;
+			 	width: auto;
+			 	padding: 20px;
+			 	margin: 0;
+			}
+			#about { 
+				position: relative;
+			 	width: auto;
+			 	padding: 20px;
+			 	margin: 0 !important;
+			 	}
+			background-image { opacity: 0.2;
+			}
 		}
 	</style>
 </head>	
@@ -38,18 +84,6 @@
 	<p>If you're interested in working with Brad Parbs, please send an email to <a href="mailto:brad@parbs.me">brad@parbs.me</a>.
 </div>
 
-<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
-<script type="text/javascript" src="jquery.backstretch.min.js"></script>
-<script type="text/javascript">
-$(function(){
-     $(window).resize(function(){
-         if($(this).width() >= 767){
-             $.backstretch("bg.jpg", {speed: 150});
-         }
-      })
-      .resize();//trigger resize on page load
-});
-</script>
 
 </body>	
 </html>
