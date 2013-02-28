@@ -34,7 +34,7 @@ a {
     }
 }
 
-#about { 
+#content { 
     width: 360px;
     padding: 10px;
     margin: -35px 50px 0 auto !important;
@@ -43,7 +43,7 @@ a {
 }
 
 @media (max-width: 767px) {
-    #about { 
+    #content { 
         position: relative;
         width: auto;
         padding: 20px;
