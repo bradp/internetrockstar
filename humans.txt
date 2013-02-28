@@ -1,0 +1,14 @@
+# humanstxt.org/
+# The humans responsible & technology colophon
+
+# TEAM
+
+    <name> -- <role> -- <twitter>
+
+# THANKS
+
+    Brad Parbs (http://github.com/bradp) for Internet Rockstar (http://github.com/bradp/internetrockstar)
+
+# TECHNOLOGY COLOPHON
+
+    HTML5, CSS3, SASS
