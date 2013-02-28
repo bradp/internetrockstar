@@ -1,0 +1,52 @@
+* { 
+    padding: 0; 
+    margin: 0; 
+}
+
+body { 
+    background-color: #333;
+    background: url(http://placehold.it/1000x1000&text=Placeholder) no-repeat center center fixed;
+    /* Sample of custom image: background: url(my_image.png) no-repeat center center fixed; */
+    
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+p { 
+    color: #fff;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    margin-bottom: 22px;
+    -webkit-font-smoothing: antialiased;
+}
+
+a { 
+    color: #fff;
+    font-weight: bold;
+    text-decoration: none;
+    border-bottom: 1px solid rgba(255,255,255,0.3);
+    &:hover { 
+        color: #990000;
+        border-bottom: 1px solid rgba(255,255,255,1);
+    }
+}
+
+#about { 
+    width: 360px;
+    padding: 10px;
+    margin: -35px 50px 0 auto !important;
+    background-color: rgba(0,0,0,0.4);
+    border-radius: 10px;
+}
+
+@media (max-width: 767px) {
+    #about { 
+        position: relative;
+        width: auto;
+        padding: 20px;
+        margin: 0 !important;
+    }
+}
